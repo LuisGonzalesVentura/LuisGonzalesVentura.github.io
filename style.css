@@ -9,7 +9,7 @@ body {
   background-size: cover;
   background-attachment:fixed;  /* hace que el fondo de imagen cubra toda la pantalla hasta en */
   background-position: center;
-  background: rgba(0, 0, 0, .4);
+ 
 }
 
 
