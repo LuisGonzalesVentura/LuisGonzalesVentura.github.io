@@ -142,14 +142,22 @@ header{
 }
 
 /* Estilos específicos para pantallas pequeñas (móviles) */
-@media screen and (max-width: 767px) {
-  body {
-    font-size: 16px;
-  }
-  
-  .container {
-    padding: 10px;
-  }
-  
-  /* Agrega más estilos para adaptar elementos específicos al móvil */
+.resolucion
+{
+  width: 99%;
+  text-align: center;
 }
+
+@media (max-width:767px)
+{
+
+}
+@media (min-width:768px) and (max-width:990px) {
+
+  
+}
+@media (min-width: 991px)
+{
+  
+}
+  /* Agrega más estilos para adaptar elementos específicos al móvil */
