@@ -23,6 +23,7 @@ body {
   font-family: 'Century Gothic', sans-serif;
   border-radius: 15px;
   margin-top: 180px;
+  overflow: hidden;
 
   /* box-shadow: 7px 13px 37px black; */
 }
@@ -140,24 +141,29 @@ header{
   margin-top: 160px; /* Ajuste de 200px hacia abajo */
 
 }
-
 /* Estilos específicos para pantallas pequeñas (móviles) */
-.resolucion
-{
-  width: 99%;
-  text-align: center;
+@media screen and (max-width: 767px) {
+  body {
+    /* Tamaño de texto para dispositivos móviles */
+    font-size: 50px;
+  }
+
+  /* Ajustes para la clase .box en dispositivos móviles */
+  .box {
+    width: 90%; /* Ajuste del ancho para que se adapte al dispositivo móvil */
+    margin-top: 20px; /* Ajuste del margen superior para separar de la barra de navegación */
+  }
+
+  /* Ajustes para el pie de página en dispositivos móviles */
+  .footer {
+    margin-top: 80px; /* Ajuste del margen superior para dar más espacio en dispositivos móviles */
+  }
+
+  /* Otros estilos específicos para dispositivos móviles */
+  /* Por ejemplo, puedes ajustar tamaños de fuente, márgenes, padding, etc. según tus necesidades */
 }
 
-@media (max-width:767px)
-{
-
+/* Reducción general del tamaño de texto para todas las pantallas */
+body {
+  font-size: 14px;
 }
-@media (min-width:768px) and (max-width:990px) {
-
-  
-}
-@media (min-width: 991px)
-{
-
-}
-  /* Agrega más estilos para adaptar elementos específicos al móvil */
