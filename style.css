@@ -140,3 +140,16 @@ header{
   margin-top: 160px; /* Ajuste de 200px hacia abajo */
 
 }
+
+/* Estilos específicos para pantallas pequeñas (móviles) */
+@media screen and (max-width: 767px) {
+  body {
+    font-size: 16px;
+  }
+  
+  .container {
+    padding: 10px;
+  }
+  
+  /* Agrega más estilos para adaptar elementos específicos al móvil */
+}
